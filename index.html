@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='assets/style/style.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Магазин одежды</title>
+</head>
+<body>
+<header class='header'>
+        <div class='header-line'>
+            <div class='phone'>
+                <div class='number'>+7 925 343 16 96</div>
+                <div class='phone-text'>Перезвоните мне</div>
+            </div>
+
+            <div class='header-logo'>
+                <div class='logo-text'>FAMFACTORY</div>
+                <div class='logo-title'>Швейная фабрика</div>
+            </div>
+
+            <div class='email'>
+                <div class='email-adress'>MAIL@FAMFACTORY.RU</div>
+                <div class='email-text'>Наша почта</div>
+            </div>            
+        </div>
+        <div class='header-center'>
+            <div class="header-title">Сделано <br> в Санкт-Петербурге</div>
+            <div class='header-center-btn'>
+                <a href='#' class='header-center-button'>Отправить запрос</a>
+            </div>
+        </div>
+</header>
+
+<main>
+    <!-- Блок со вступлением и товарами -->
+    <section class='intro'>
+        <h1>Современный <br>мерчендайз для бизнеса</h1>
+        <div class='intro-text'>Над реализацией проектов по разработке и производству одеждыи аксессураов трудится огромная команда профессионалов, поэтому мы можем создавать проекты любой сложности и масштабов под ключ или воплотить конкретные задачи на любом из этапов производства.</div>
+    </section>    
+    <section class='products'>
+        <div class='product-cart'>
+            <img src='assets/images/hudi.png' alt='Худи'>
+            <div class="text-container">
+                <span class="title">Худи</span>
+                <span class="price">от 1650 ₽</span>
+            </div>
+        </div>
+        <div class='product-cart'>
+            <img src='assets/images/futbolki.png' alt='Футболки'>
+            <div class="text-container">
+                <span class="title">Футболки</span>
+                <span class="price">от 510 ₽</span>
+            </div>
+        </div>
+        <div class='product-cart'>
+            <img src='assets/images/sweetshot.png' alt='Свитшоты'>
+            <div class="text-container">
+                <span class="title">Свитшоты</span>
+                <span class="price">от 890 ₽</span>
+            </div>
+        </div>
+        <div class='product-cart'>
+            <img src='assets/images/shtany.png' alt='Штаны'>
+            <div class="text-container">
+                <span class="title">Штаны</span>
+                <span class="price">от 1230 ₽</span>
+            </div>
+        </div>
+        <div class='product-cart'>
+            <img src='assets/images/shopery.png' alt='Шопперы'>
+            <div class="text-container">
+                <span class="title">Шопперы</span>
+                <span class="price">от 330 ₽</span>
+            </div>
+        </div>
+        <div class='product-cart'>
+            <img src='assets/images/kepki.png' alt='Кепки'>
+            <div class="text-container">
+                <span class="title">Кепки</span>
+                <span class="price">от 400 ₽</span>
+            </div>
+        </div>
+    </section>
+    <!-- Блок с видео-->
+    <div class='video-section'>
+        <p class='video-section-p'>Презентация нашей <br>коллекции одежды 2021</p>
+        <img src="assets/style/presentation-anonce.png" alt="Video thumbnail" class="video-background">
+    <div class="video-overlay">
+        <div class="play-button" onclick="playVideo()"></div>
+    </div>
+    </div>
+    <!-- Блок о производстве -->
+    <div class='cooperation-container'>
+        <div class='cooperation-intro'>
+            <h2>Производство одежды <br> для компаний, брендов, <br> артистов</h2>
+            <p class='cooperation-text'>Наша команда по разработке и производству одежды может реализовать проекты любой <br> сложности, независимо от их масштаба. Мы можем взять на себя всю работу под ключ, или <br> решить конкретные задачи на любом из этапов производства.
+            </p>
+        </div>
+        <div class='cooperations'>
+        <div class='cooperation-cart'>
+            <img src='assets/images/patternmaking-los-angeles 1.png' alt='Разработка лекал и дизайна'>
+            <h2>Разработка лекал и <br> дизайна</h2>
+            <p>Поможем создать уникальные лекала для <br> вашей одежды или адаптировать уже <br> имеющиеся. Разработаем индивидуальный <br> дизайн ваших товаров</p>
+        </div>
+        <div class='cooperation-cart'>
+            <img src='assets/images/cut-and-sew-sample-making 1.png' alt='Пошив одежды на заказ'>
+            <h2>Пошив одежды <br> на заказ</h2>
+            <p>Пошив трикотажных изделий любой <br> сложности и в любых объемах, как по <br> вашим образцам, так и по нашим базовым <br> лекалам</p>
+        </div>
+        <div class='cooperation-cart'>
+            <img src='assets/images/sustainable-clothing-sample-production 1.png' alt='Бренд одежды под ключ'>
+            <h2>Бренд одежды <br> под ключ</h2>
+            <p>Поможем разработать линейку одежды для <br> вашего бренда, от пошива до реализации.</p>
+        </div>
+    </div>
+    </div>    
+    <!-- Блок со способами нанесения -->
+    <div class='prints-techniques-container'>
+        <div class='prints-techniques-intro'>
+            <h2>Способы нанесения <br> принтов и вышивки</h2>
+        </div>
+    <div class='prints-techniques'>
+        <div class='cooperation-cart'>
+            <img src='assets/images/Screen-Printing-Adamley-Textiles 1.png' alt='Шелкография'>
+            <h2>Шелкография</p>
+                <p>Трафаретная печать подходит для нанесения почти на любых <br> изделиях: футболках, толстовках, свитшотах и т.д. Принты, <br> сделанные данным способом имеют высокую износостойкость, не <br> требуют особого ухода и прослужат довольно долго.</p>
+        </div>
+    <div class='cooperation-cart'>
+        <img src='assets/images/embroidery-machine-fox-detail 1.png' alt='Вышивка на одежде'>
+        <h2>Вышивка на одежде</p>
+            <p>Один из самых интересных способов нанесения изображения на <br> одежду. Вышивка долговечна, без проблем переносит <br> механические воздействия. Данный вид нанесения выглядит <br> наиболее эффектно и прослужит дольше всего.
+            </p>
+    </div>
+    </div>
+</div>
+    <!-- Блок о реализации -->
+    <div class='realisation'>
+        <div class='realisation-overlay'>
+            <p class='realisation-h2'>Если у вас есть свои товары, <br> мы можем вам помочь реализовать их.</p>
+            <p class='realisation-p'>Разместим Ваши товары на сайте vsrap.com и в офлайн-магазинах «VSRAP». <br> Осуществим обработку заказов и их отправку. Каждое предложение мы рассматриваем <br> индивидуально.</p>
+        </div>
+    </div>
+    <!-- Блок со схемой работы -->
+    <div class="scheme-of-work-container">
+        <p class='scheme-of-work-h2'>Схема работы с нами</h2>
+        <p class="scheme-of-work-p">К каждому проекту мы подходим индивидуально. Свяжитесь с нами и мы поможем <br> реализовать ваши идеи.</p>
+        <div class="steps">
+            <div class="step">
+                <img src='assets/images/send an application.png' alt='Отправляете заявку' class="step-icon">
+                <p class="step-text">Отправляете заявку <br> или звоните +7 (911) <br> 109-97-07</p>
+            </div>
+            <div class="step">
+                <img src='assets/images/developing patterns.png' alt='Разрабатываем лекала' class="step-icon">
+                <p class="step-text">Разрабатываем <br> лекала и шьём <br> образец</p>
+            </div>
+            <div class="step">
+                <img src='assets/images/printing.png' alt='Наносим принт' class="step-icon">
+                <p class="step-text">Шьём тираж и <br> наносим принт или <br> вышивку</p>
+            </div>
+            <div class="step">
+                <img src='assets/images/packing.png' alt='Упаковываем' class="step-icon">
+                <p class="step-text">Упаковываем <br> и отгружаем <br> партию</p>
+            </div>
+        </div>
+    </div>
+    <!-- Блок о производстве -->
+    <div class='actual-manufacturing-container'>
+        <div class='actual-manufacturing-intro'>
+            <h2>Все вещи мы шьём на собственном <br> 
+                производстве в Санкт-Петербурге <br> 
+                по собственному дизайну и крою</h2>
+                <p>А наши коллекции сделанные совместно с топовыми блогерами и артистами продаём <br>
+                в онлайн и через собственные розничные магазины в Питере и Москве.</p>
+        </div>
+    <div class='actual-manufacturing'>
+        <div class='actual-manufacturing-cart'>
+        <img src='assets/images/IMG_9324.png' alt=''>
+    </div>
+    <div class='actual-manufacturing-cart'>
+        <img src='assets/images/IMG_9381.png' alt=''>
+    </div>
+    <div class='actual-manufacturing-cart'>
+        <img src='assets/images/IMG_9394.png' alt=''>
+    </div>
+    <div class='actual-manufacturing-cart'>
+        <img src='assets/images/IMG_9344.png' alt=''>
+    </div>
+    <div class='actual-manufacturing-cart'>
+        <img src='assets/images/IMG_94281.png' alt=''>
+    </div>
+    <div class='actual-manufacturing-cart'>
+        <img src='assets/images/IMG_93812.png' alt=''>
+    </div>
+    </div>
+</div>
+    <!-- Блок с адресами магазинов -->
+    <div class="shops-container">
+        <header class="shops-header">
+            <h2>Магазины <br> в самом в центре Питера <br> и Москвы</h2>
+            <p>Мы можем организовать реализацию вашего товара, не только в онлайне, <br> но и в наших розничных магазинах.</p>
+        </header>
+        <div class="shops-content">
+            <div class="shop-spb">
+                <h3>Санкт-Петербург <br> Лиговский проспект 64</h3>
+            </div>
+            <div class="shop-msk">
+                <h3>Москва <br> Петровский бульвар 9</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок подвал -->
+    <div class='footer-black'>
+        <!-- Блок о коллаборациях -->
+    <div class='collaborations-container'>
+        <div class='collaborations-intro'>
+            <h2>Наши коллаборации</h2>
+                <p>С нами уже самые топовые инфлюенсеры. </p>
+        </div>
+        <div class='collaborations'>
+            <div class='collaborations-cart'>
+                <img src='assets/images/1416065832_6.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/1416065832_5.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/Group_10.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/IMG_9232_Ed1it_2.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/IMG_1067_1.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/IMG_9170_1.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/football_4_1.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/image_17.png' alt=''>
+            </div>
+            <div class='collaborations-cart'>
+                <img src='assets/images/danick_10_1.png' alt=''>
+            </div>
+        </div>
+    </div>
+        <!-- Блок c футером -->
+        <div class='footer'>
+            <div class='footer-line'>
+                <div class='phone'>
+                    <div class='number'>+7 925 343 16 96</div>
+                    <div class='phone-text'>Перезвоните мне</div>
+                </div>
+    
+                <div class='header-logo'>
+                    <div class='logo-text'>FAMFACTORY</div>
+                    <div class='logo-title'>Швейная фабрика в Санкт-Петербурге</div>
+                </div>
+    
+                <div class='email'>
+                    <div class='email-adress'>MAIL@FAMFACTORY.RU</div>
+                    <div class='email-text'>Наша почта</div>
+                </div> 
+                
+                <div class='footer-center-btn'>
+                    <a href='#' class='footer-center-button'>Отправить запрос</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
