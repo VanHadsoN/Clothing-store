@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Inter", "Poppins", "Open Sans" sans-serif;
+    font-family: "Inter", "Poppins", "Open Sans", sans-serif;
     font-style: normal;
     align-items: center;
     width: 1920px;
@@ -38,7 +38,6 @@ body {
 .phone-text {
     color:rgba(255, 255, 255, 1);
     font-family: "Inter", sans-serif;
-    line-height: 21px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -74,7 +73,6 @@ body {
 .email-text {
     color: rgba(255, 255, 255, 1);
     font-family: "Inter", sans-serif;
-    line-height: 21px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
