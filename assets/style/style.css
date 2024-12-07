@@ -32,7 +32,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.2;
 }
 
 .phone-text {
@@ -40,7 +40,7 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5;
 }
 
 .header-logo {
@@ -52,14 +52,14 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 1.2;
 }
 
 .logo-title {
     color:rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .email-adress {
@@ -67,7 +67,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.2;
 }
 
 .email-text {
@@ -75,7 +75,7 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5;
 }
 
 .header-center {
@@ -86,7 +86,7 @@ body {
 .header-title {
     color:rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 72px;
+    line-height: 1.2;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
@@ -100,7 +100,7 @@ body {
     color:rgba(53, 53, 53, 1);
     padding: 10px 20px;
     font-family: "Poppins", sans-serif;
-    line-height: 19px;
+    line-height: 1.2;
     font-size: 16px;
     font-weight: 800;
     border-radius: 10px;
@@ -127,7 +127,7 @@ body {
 
 .intro-text {
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     width: 738px;
     height: 192px;
@@ -139,7 +139,7 @@ body {
 h1 {
     display: block;
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
@@ -177,14 +177,14 @@ h1 {
     font-size: 24px;
     color: rgba(0, 0, 0, 1);
     margin-right: 12px;
-    line-height: 29px;
+    line-height: 1.2;
     align-items: baseline;
 }
 /* Цена */
 .price {
     font-size: 16px;
     color: rgba(0, 0, 0, 1);
-    line-height: 22px;
+    line-height: 1.5;
     align-items: start;
 }
 
@@ -203,7 +203,7 @@ h1 {
 .video-section-p {
     color:rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 29px;
+    line-height: 1.2;
     font-size: 24px;
     font-weight: 800;
     text-align: center;
@@ -293,7 +293,7 @@ h1 {
 .cooperation-intro h2 {
     display: block;
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
@@ -301,7 +301,7 @@ h1 {
 
 .cooperation-text {
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     position: absolute;
     width: 100%;
@@ -332,7 +332,7 @@ h1 {
 .cooperation-cart h2 {
     color: rgba(25, 25, 25, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 24px;
+    line-height: 1.2;
     font-size: 20px;
     font-weight: 800;
 }
@@ -340,7 +340,7 @@ h1 {
 .cooperation-cart p {
     color: rgba(25, 25, 25, 1);
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
 }
@@ -365,7 +365,7 @@ h1 {
 .prints-techniques-intro h2 {
     position: absolute;
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     left: 340px;
@@ -425,7 +425,7 @@ h1 {
 .realisation-h2 {
     color: rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 29px;
+    line-height: 1.2;
     font-size: 24px;
     font-weight: 800;
     text-align: center;
@@ -434,7 +434,7 @@ h1 {
 .realisation-p {
     color:rgba(255, 255, 255, 1);
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -454,7 +454,7 @@ h1 {
 .scheme-of-work-h2 {
     color: rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
@@ -466,7 +466,7 @@ h1 {
 .scheme-of-work-p {
     color:rgba(255, 255, 255, 1);
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -508,7 +508,7 @@ h1 {
 
 .step-text {
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
@@ -535,7 +535,7 @@ h1 {
     position: absolute;
     color: rgba(25, 25, 25, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     left: 274px;
@@ -544,7 +544,7 @@ h1 {
 .actual-manufacturing-intro p {
     color:rgba(26, 26, 26, 1);
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -589,7 +589,7 @@ h1 {
     text-align: center;
     color: rgba(26, 26, 26, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     left: 274px;
@@ -598,7 +598,7 @@ h1 {
 .shops-header p {
     color:rgba(26, 26, 26, 1);
     font-family: "Open Sans", sans-serif;
-    line-height: 18px;
+    line-height: 1.2;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
@@ -667,7 +667,7 @@ h1 {
 .shop-spb h3 {
     color: rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 28px;
+    line-height: 1.2;
     font-size: 23px;
     font-weight: 800;
 }
@@ -675,7 +675,7 @@ h1 {
 .shop-msk h3 {
     color: rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 29px;
+    line-height: 1.2;
     font-size: 24px;
     font-weight: 800;
 }
@@ -709,7 +709,7 @@ h1 {
     position: absolute;
     color: rgba(255, 255, 255, 1);
     font-family: "Poppins", sans-serif;
-    line-height: 53px;
+    line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     left: 420px;
@@ -718,7 +718,7 @@ h1 {
 .collaborations-intro p {
     color:rgba(255, 255, 255, 1);
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -773,7 +773,7 @@ h1 {
     color:rgba(53, 53, 53, 1);
     padding: 10px 20px;
     font-family: "Poppins", sans-serif;
-    line-height: 19px;
+    line-height: 1.2;
     font-size: 16px;
     font-weight: 800;
     border-radius: 10px;
