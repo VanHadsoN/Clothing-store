@@ -1,3 +1,15 @@
+:root {
+    --white: #FFFFFF;
+    --yellow: #F4DF74;
+    --dark-yellow: #C9AA0E;
+    --black-grey: #353535;
+    --black-total: #000000;
+    --black-half: #00000080;
+    --black-light: #0000001a;
+    --grey: #e6e6e6;
+    --grey-white: #ffffff33;
+    --grey-total: #eeeeee;
+}
 body {
     margin: 0;
     font-family: "Inter", "Poppins", "Open Sans", sans-serif;
@@ -15,7 +27,7 @@ body {
     background-image: url(bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--black-total);
 }
 
 .header-line {
@@ -28,7 +40,7 @@ body {
 }
 
 .number {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 14px;
@@ -36,7 +48,7 @@ body {
 }
 
 .phone-text {
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -48,7 +60,7 @@ body {
 }
 
 .logo-text {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 25px;
@@ -56,14 +68,14 @@ body {
 }
 
 .logo-title {
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .email-adress {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 14px;
@@ -71,7 +83,7 @@ body {
 }
 
 .email-text {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -84,7 +96,7 @@ body {
 }
 
 .header-title {
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 60px;
@@ -97,8 +109,8 @@ body {
 }
 
 .header-center-button {
-    background-color: rgba(244, 223, 116, 1);
-    color:rgba(53, 53, 53, 1);
+    background-color: var(--yellow);
+    color:var(--black-grey);
     padding: 10px 20px;
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -115,7 +127,7 @@ body {
 }
 
 .header-center-button:hover {
-    background-color: rgb(201, 170, 14);
+    background-color: var(--dark-yellow);
 }
 
 .intro {
@@ -180,7 +192,7 @@ h1 {
 /* Название */
 .title {
     font-size: 24px;
-    color: rgba(0, 0, 0, 1);
+    color: var(--black-total);
     margin-right: 12px;
     line-height: 1.2;
     align-items: baseline;
@@ -188,7 +200,7 @@ h1 {
 /* Цена */
 .price {
     font-size: 16px;
-    color: rgba(0, 0, 0, 1);
+    color: var(--black-total);
     line-height: 1.5;
     align-items: start;
 }
@@ -206,7 +218,7 @@ h1 {
 }
 
 .video-section-p {
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 24px;
@@ -240,7 +252,7 @@ h1 {
     left: 50%;
     width: 105px;
     height: 105px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--grey-white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -259,12 +271,12 @@ h1 {
     height: 0;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 30px solid rgba(255, 255, 255, 1);
+    border-left: 30px solid var(--white);
     margin-left: 8px;
 }
 
 .video-title {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-size: 24px;
     margin-top: 20px;
     text-align: center;
@@ -279,7 +291,7 @@ h1 {
 
 /* Контейнер с производством для компаний и брендов */
 .cooperation-container{
-    background-color: rgba(238, 238, 238, 1);
+    background-color: var(--grey-total);
     position: relative;
     width: 1919px;
     height: 1211px;
@@ -342,7 +354,7 @@ h1 {
 }
 
 .cooperation-cart h2 {
-    color: rgba(25, 25, 25, 1);
+    color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 20px;
@@ -350,7 +362,7 @@ h1 {
 }
 
 .cooperation-cart p {
-    color: rgba(25, 25, 25, 1);
+    color: var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -405,7 +417,7 @@ h1 {
     background-image: url('3_3.png');
     background-repeat: no-repeat;
     background-position: left center;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: var(--black-half);
     z-index: 1;
 }
 
@@ -421,7 +433,7 @@ h1 {
     background-image: url('3_4.png');
     background-repeat: no-repeat;
     background-position: right center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--black-half);
 }
 
 .realisation-overlay {
@@ -437,7 +449,7 @@ h1 {
 
 .realisation-h2 {
     position: absolute;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 24px;
@@ -450,7 +462,7 @@ h1 {
 
 .realisation-p {
     position: absolute;
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -463,7 +475,7 @@ h1 {
 
 /* Контейнер со схемой работы */
 .scheme-of-work-container {
-    background-color: rgba(25, 25, 25, 1);
+    background-color: #191919e3;
     position: relative;
     width: 1922px;
     height: 901px;
@@ -472,7 +484,7 @@ h1 {
 }
 
 .scheme-of-work-h2 {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
@@ -485,7 +497,7 @@ h1 {
 
 .scheme-of-work-p {
     position: absolute;
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -517,14 +529,14 @@ h1 {
 .step-icon {
     width: 100px;
     height: 100px;
-    background-color: rgba(25, 25, 25, 1);
+    background-color: var(--black-total);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 10px;
     font-size: 24px;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
 }
 
 .step-text {
@@ -532,7 +544,7 @@ h1 {
     line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
 }
 
 /* Контейнер о собственном производстве */
@@ -554,7 +566,7 @@ h1 {
 
 .actual-manufacturing-intro h2 {
     position: absolute;
-    color: rgba(25, 25, 25, 1);
+    color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
@@ -565,7 +577,7 @@ h1 {
 
 .actual-manufacturing-intro p {
     position: absolute;
-    color:rgba(26, 26, 26, 1);
+    color:var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -603,14 +615,14 @@ h1 {
     height: 820px;
     top: 1200px;
     left: 400px;
-    background-color: rgba(230, 230, 230, 1);
+    background-color: var(--grey);
     z-index: 1;
 }
 
 .shops-header h2 {
     position: absolute;
     text-align: center;
-    color: rgba(26, 26, 26, 1);
+    color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
@@ -622,7 +634,7 @@ h1 {
 
 .shops-header p {
     position: absolute;
-    color:rgba(26, 26, 26, 1);
+    color:var(--black-total);
     font-family: "Open Sans", sans-serif;
     line-height: 1.2;
     font-size: 15px;
@@ -675,7 +687,7 @@ h1 {
     width: 300px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--black-light);
     top: 350px;
     left: 30px;
 }
@@ -685,13 +697,13 @@ h1 {
     width: 300px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--black-light);
     top: 350px;
     left: 600px;
 }
 
 .shop-spb h3 {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 23px;
@@ -699,7 +711,7 @@ h1 {
 }
 
 .shop-msk h3 {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 24px;
@@ -709,7 +721,7 @@ h1 {
 /* Контейнер с большим черным квадратом в подвале */
 .footer-black {
     position: relative;
-    background-color: rgba(25, 25, 25, 1);
+    background-color: var(--black-total);
     width: 1921px;
     height: 2480px;
     top: 550px;
@@ -733,7 +745,7 @@ h1 {
 
 .collaborations-intro h2 {
     position: absolute;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
@@ -742,7 +754,7 @@ h1 {
 }
 
 .collaborations-intro p {
-    color:rgba(255, 255, 255, 1);
+    color:var(--white);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -795,8 +807,8 @@ h1 {
 }
 
 .footer-center-button {
-    background-color: rgba(244, 223, 116, 1);
-    color:rgba(53, 53, 53, 1);
+    background-color: var(--yellow);
+    color:var(--black-grey);
     padding: 10px 20px;
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -812,5 +824,5 @@ h1 {
 }
 
 .footer-center-button:hover {
-    background-color: rgb(201, 170, 14);
+    background-color: var(--dark-yellow);
 }
