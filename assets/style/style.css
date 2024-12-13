@@ -790,7 +790,7 @@ h1 {
 }
 
 /* Контейнер с подвалом */
-.footer {
+footer {
     position: relative;
     display: block;
     width: 1227px;
