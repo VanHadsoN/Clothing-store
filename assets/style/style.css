@@ -248,21 +248,23 @@ h1 {
 
 .play-button {
     position: absolute;
+    background-color: var(--grey-white);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.6s, transform 0.4s;
     top: 50%;
     left: 50%;
     width: 105px;
     height: 105px;
-    background-color: var(--grey-white);
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    transition: transform 0.3s ease;
 }
 
 .play-button:hover {
-    transform: scale(1.1);
+    background-color: dimgray;
+    transform: scale(1.05);
 }
 
 .play-button::after {
