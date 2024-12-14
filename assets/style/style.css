@@ -16,11 +16,11 @@ body {
     font-style: normal;
     align-items: center;
     width: 1920px;
-    height: 9533px;
+    height: 9200px;
 }
 
 .header {
-    position: relative;
+    position: absolute;
     display: block;
     width: 1920px;
     height: 677px;
@@ -93,22 +93,24 @@ body {
 .header-center {
     position: relative;
     text-align: center;
+    top: 3%;
+    z-index: 1;
 }
 
 .header-title {
+    position: relative;
     color:var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
-    position: absolute;
-    margin-top: 214px;
-    left: 550px;
-    max-width: 40%;
+    left: 25%;
+    max-width: 50%;
 }
 
 .header-center-button {
+    position: relative;
     background-color: var(--yellow);
     color:var(--black-grey);
     padding: 10px 20px;
@@ -118,10 +120,7 @@ body {
     font-weight: 800;
     border-radius: 10px;
     text-decoration: none;
-    position: absolute;
-    margin-top: 370px;
-    top: 40px;
-    left: 840px;
+    margin-top: 20px;
 
     transition: background-color 0.3s linear;
 }
@@ -130,49 +129,52 @@ body {
     background-color: var(--dark-yellow);
 }
 
+.main {
+    position: absolute;
+}
+
 .intro {
+    position: absolute;
     text-align: center;
-    position: relative;
     padding: 20px;
     display: block;
-    top: 50px;
+    top: 25%;
 }
 
 .intro-text {
+    position: relative;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
     width: 738px;
     height: 192px;
     text-align: center;
-    position: absolute;
-    left: 593px;
-    top: 200px;
+    left: 50%;
 }
 
 h1 {
     display: block;
-    position: absolute;
+    position: relative;
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
-    left: 550px;
-    max-width: 40%;
+    left: 50%;
+    max-width: 70%;
 }
 
 /* Контейнер с товарами */
 .products {
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 1129px;
     height: 867px;
     gap: 20px;
-    position: absolute;
     left: 398px;
-    top: 1050px;
+    top: 1010px;
 }
 
 .product-card {
@@ -213,7 +215,7 @@ h1 {
     overflow: hidden;
     border-radius: 12px;
     left: 398px;
-    top: 1200px;
+    top: 1650px;
     z-index: 1;
 }
 
@@ -297,7 +299,7 @@ h1 {
     position: relative;
     width: 1919px;
     height: 1211px;
-    top: 1000px;
+    top: 1450px;
 }
 
 .cooperation-intro {
@@ -376,7 +378,7 @@ h1 {
     position: relative;
     width: 1150px;
     height: 700px;
-    top: 1000px;
+    top: 1450px;
     left: 20%;
 }
 
@@ -411,7 +413,7 @@ h1 {
 /* Контейнер с реализацией */
 .realisation {
     position: relative;
-    top: 1100px;
+    top: 1500px;
     left: 20%;
     width: 1125px;
     height: 350px;
@@ -481,7 +483,7 @@ h1 {
     position: relative;
     width: 1922px;
     height: 901px;
-    top: 900px;
+    top: 1300px;
     z-index: 0;
 }
 
@@ -554,7 +556,7 @@ h1 {
     position: relative;
     width: 1346px;
     height: 1098px;
-    top: 1000px;
+    top: 1300px;
     left: 250px;
 }
 
@@ -615,7 +617,7 @@ h1 {
     position: relative;
     width: 1125px;
     height: 820px;
-    top: 1200px;
+    top: 1500px;
     left: 400px;
     background-color: var(--grey);
     z-index: 1;
@@ -726,7 +728,7 @@ h1 {
     background-color: var(--black-total);
     width: 1921px;
     height: 2480px;
-    top: 550px;
+    top: 880px;
 }
 /* Контейнер о коллаборациях */
 .collaborations-container {
