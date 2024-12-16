@@ -821,8 +821,8 @@ footer {
     border-radius: 10px;
     text-decoration: none;
     position: absolute;
-    top: 220px;
-    left: 850px;
+    top: 75%;
+    left: 67%;
 
     transition: background-color 0.3s linear;
 }
