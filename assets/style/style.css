@@ -123,10 +123,12 @@ body {
     margin-top: 20px;
 
     transition: background-color 0.3s linear;
-}
 
-.header-center-button:hover {
-    background-color: var(--dark-yellow);
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: var(--dark-yellow);
+        }
+    }
 }
 
 .main {
@@ -868,8 +870,10 @@ footer {
     left: 67%;
 
     transition: background-color 0.3s linear;
-}
 
-.footer-center-button:hover {
-    background-color: var(--dark-yellow);
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: var(--dark-yellow);
+        }
+    }
 }
