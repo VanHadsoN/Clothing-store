@@ -14,15 +14,18 @@ body {
     margin: 0;
     font-family: "Inter", "Poppins", "Open Sans", sans-serif;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 1920px;
-    height: 9200px;
+    width: 100%;
 }
 
 .header {
-    position: absolute;
-    display: block;
-    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
     height: 677px;
     background-image: url(bg.png);
     background-repeat: no-repeat;
@@ -31,12 +34,12 @@ body {
 }
 
 .header-line {
-    padding-top: 30px;
-    padding-left: 10em;
-    padding-right: 10em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    padding: 30px 0;
+    margin-top: 0; /* Здесь можно добавить отступ от верхнего края страницы, если будет нужно */
 }
 
 .number {
@@ -91,26 +94,21 @@ body {
 }
 
 .header-center {
-    position: relative;
     text-align: center;
-    top: 3%;
-    z-index: 1;
+    margin: 5% 0;
 }
 
 .header-title {
-    position: relative;
     color:var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 60px;
     font-weight: 800;
-    text-align: center;
-    left: 25%;
-    max-width: 50%;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .header-center-button {
-    position: relative;
     background-color: var(--yellow);
     color:var(--black-grey);
     padding: 10px 20px;
@@ -132,51 +130,44 @@ body {
 }
 
 .main {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .intro {
-    position: absolute;
+    width: 100%;
     text-align: center;
     padding: 20px;
-    display: block;
-    top: 37%;
 }
 
 .intro-text {
-    position: relative;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
-    width: 738px;
-    height: 192px;
-    text-align: center;
-    left: 50%;
+    max-width: 738px;
+    margin: 0 auto;
 }
 
 h1 {
-    display: block;
-    position: relative;
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
-    left: 50%;
-    max-width: 70%;
+    max-width: 50%;
+    margin: 50px auto;
 }
 
 /* Контейнер с товарами */
 .products {
-    position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1129px;
-    height: 867px;
     gap: 20px;
-    left: 398px;
-    top: 1010px;
+    max-width: 1129px;
+    margin: 50px auto;
 }
 
 .product-card {
@@ -192,6 +183,8 @@ h1 {
 .text-container {
     font-family: "Poppins", sans-serif;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* Название */
 .title {
@@ -199,26 +192,25 @@ h1 {
     color: var(--black-total);
     margin-right: 12px;
     line-height: 1.2;
-    align-items: baseline;
 }
 /* Цена */
 .price {
     font-size: 16px;
     color: var(--black-total);
     line-height: 1.5;
-    align-items: start;
 }
 
 /* Секция с видео */
 .video-section {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 1125px;
     height: 350px;
     overflow: hidden;
     border-radius: 12px;
-    left: 398px;
-    top: 1650px;
-    z-index: 1;
+    margin: 20px auto;
+    position: relative;
 }
 
 .video-section-p {
@@ -229,8 +221,7 @@ h1 {
     font-weight: 800;
     text-align: center;
     position: absolute;
-    top: 50px;
-    left: 400px;
+    top: 5%;
     max-width: 40%;
 }
 
@@ -238,7 +229,6 @@ h1 {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .video-overlay {
@@ -254,14 +244,11 @@ h1 {
 }
 
 .play-button {
-    position: absolute;
     background-color: var(--grey-white);
     border: none;
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 1s, transform 2s;
-    top: 50%;
-    left: 50%;
     width: 105px;
     height: 105px;
     display: flex;
@@ -289,7 +276,6 @@ h1 {
     font-size: 24px;
     margin-top: 20px;
     text-align: center;
-    padding: 0 20px;
 }
 
 /* Контейнер с производством для компаний и брендов */
