@@ -604,201 +604,140 @@ h1 {
     }
 }
 /* Контейнер с адресами магазинов */
-.shops-container {
-    position: relative;
-    width: 1125px;
-    height: 820px;
-    top: 1500px;
-    left: 400px;
+.shops-block {
+    text-align: center;
     background-color: var(--grey);
+    max-width: 1125px;
+    max-height: 650px;
+    padding: 50px 0;
+    margin: 5% auto 0 auto;
     z-index: 1;
 }
 
-.shops-header h2 {
-    position: absolute;
-    text-align: center;
+.shops-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.shops-block h2 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
-    top: 5%;
-    left: 27%;
-    max-width: 50%;
+    max-width: 65%;
+    margin: 0 auto 5% auto;
 }
 
-.shops-header p {
-    position: absolute;
+.shops-container p {
     color:var(--black-total);
     font-family: "Open Sans", sans-serif;
     line-height: 1.2;
     font-size: 15px;
     font-weight: 400;
-    text-align: center;
-    top: 250px;
-    left: 28%;
     max-width: 50%;
+    margin: 0 auto 5% auto;
 }
 
-.shops-content {
+.shops-locations {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-location {
+    flex: 1;
+    overflow: hidden;
+}
+
+.shops-locations p {
     position: relative;
-    top: 350px;
-    width: 1125px;
-    height: 472px;
-    border-radius: 15px;
-    background-image: url('shop_spb.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-    z-index: 1;
-}
-
-/* Второе изображение внутри контейнера сразу за первым */
-.shops-content::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
-    background-image: url('shop_msk.png');
-    background-repeat: no-repeat;
-    background-position: right center;
-}
-
-.shops-content-overlay {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 738px;
-    height: 71px;
-    padding: 20px;
-}
-
-.shop-spb {
-    position: absolute;
-    width: 300px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px var(--black-light);
-    top: 350px;
-    left: 30px;
-}
-
-.shop-msk {
-    position: absolute;
-    width: 300px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px var(--black-light);
-    top: 350px;
-    left: 600px;
-}
-
-.shop-spb h3 {
     color: var(--white);
+    text-align: start;
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 23px;
     font-weight: 800;
-}
-
-.shop-msk h3 {
-    color: var(--white);
-    font-family: "Poppins", sans-serif;
-    line-height: 1.2;
-    font-size: 24px;
-    font-weight: 800;
-}
-
-/* Контейнер с большим черным квадратом в подвале */
-.footer-black {
-    position: relative;
-    background-color: var(--black-total);
-    width: 1921px;
-    height: 2480px;
-    top: 880px;
-}
-/* Контейнер о коллаборациях */
-.collaborations-container {
-    position: relative;
-    width: 1225px;
-    height: 1341px;
-    top: 700px;
-    left: 265px;
+    top: -15%;
+    left: 5%;
     z-index: 1;
 }
 
-.collaborations-intro {
-    position: absolute;
-    padding: 20px;
+.shops-locations img {
     width: 100%;
-    height: 0;
+    object-fit: cover;
 }
 
-.collaborations-intro h2 {
-    position: absolute;
+.collaborations-block {
+    position: relative;
+    margin-top: -20%;
+    padding: 100px 0 50px;
+    background-color: var(--black-total);
+    text-align: center;
+    z-index: -1;
+    /*top: -15%;*/
+}
+
+.collaborations-block h2 {
     color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
     font-weight: 800;
-    left: 420px;
+    margin: 20% auto 0 auto;
 }
 
-.collaborations-intro p {
+.collaborations-block p {
     color:var(--white);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
-    position: absolute;
-    top: 150px;
-    left: 530px;
+    margin: 3% auto 3% auto;
 }
 
-.collaborations {
+.collaborations-grid {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    height: 0;
     gap: 20px;
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    justify-content: center;
+    max-width: 1125px;
+    margin: 0 auto;
 }
 
-.collaborations-cart {
+.collaborations-grid-cart {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
     text-align: center;
-    padding: 10px;
 }
 
-.collaborations-cart img {
-    width: 351px;
-    height: 351px;
-    border-radius: 4px;
+.collaborations-grid-cart img {
+    width: 100%;
+    border-radius: 6px;
 }
 
 /* Контейнер с подвалом */
 footer {
-    position: relative;
-    display: block;
-    width: 1227px;
-    height: 230px;
-    top: 850px;
-    z-index: 1;
+    background-color: var(--black-total);
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    /*position: relative;*/
+    /*display: block;    */
+    /*width: 1227px;*/
+    /*height: 230px;*/
+    /*top: 850px;*/
+    /*z-index: 1;*/
 }
 
 .footer-line {
-    padding-left: 400px;
-    width: 1380px;
-    height: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 400px;
+    /*width: 1380px;*/
+    /*height: 230px;*/
+
 }
 
 .footer-center-button {
@@ -811,9 +750,9 @@ footer {
     font-weight: 800;
     border-radius: 10px;
     text-decoration: none;
-    position: absolute;
-    top: 75%;
-    left: 67%;
+    /*position: absolute;*/
+    /*top: 75%;*/
+    /*left: 67%;*/
 
     transition: background-color 0.3s linear;
 
