@@ -185,6 +185,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 /* Название */
 .title {
@@ -590,19 +592,6 @@ h1 {
     border-radius: 6px;
 }
 
-@media (max-width: 1205px) {
-    .actual-manufacturing-cart {
-        flex: 1 1 calc(50% - 20px);
-        max-width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 600px) {
-    .actual-manufacturing-cart {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-}
 /* Контейнер с адресами магазинов */
 .shops-block {
     text-align: center;
@@ -763,5 +752,170 @@ footer {
         &:hover {
             background-color: var(--dark-yellow);
         }
+    }
+}
+
+@media (max-width: 1205px) {
+    .header {
+        height: auto;
+        padding: 20px;
+    }
+
+    .header-title {
+        font-size: 40px;
+        max-width: 90%;
+    }
+
+    .header-center-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .products {
+        gap: 10px;
+        margin: 30px auto;
+    }
+
+    .product-cart {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .text-container {
+        font-family: "Poppins", sans-serif;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 20px;
+        color: var(--black-total);
+        margin-right: 0;
+    }
+
+    .price {
+        font-size: 14px;
+        color: var(--black-total);
+    }
+
+    .actual-manufacturing-cart {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .collaborations-grid-cart {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        align-items: center;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-line {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header-title {
+        font-size: 32px;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-cart {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .text-container {
+        font-family: "Poppins", sans-serif;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 18px;
+        color: var(--black-total);
+    }
+
+    .price {
+        font-size: 12px;
+        color: var(--black-total);
+    }
+
+    .actual-manufacturing-cart {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .steps {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .step {
+        max-width: 100%;
+    }
+
+    .shops-locations {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .shop-location {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .shops-locations img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .shops-locations p {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .collaborations-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .collaborations-grid-cart {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 100%;
+        max-width: 100%;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .collaborations-grid-cart img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .collaborations-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
