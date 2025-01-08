@@ -33,7 +33,7 @@ body {
     background-color: var(--black-total);
 }
 
-.header-line {
+.header__line {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ body {
     line-height: 1.2;
 }
 
-.phone-text {
+.header__phone-text {
     color:var(--white);
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -58,11 +58,11 @@ body {
     line-height: 1.5;
 }
 
-.header-logo {
+.header__logo {
     text-align: center;
 }
 
-.logo-text {
+.header__logo-text {
     color: var(--white);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -70,14 +70,14 @@ body {
     line-height: 1.2;
 }
 
-.logo-title {
+.header__logo-title {
     color:var(--white);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.email-adress {
+.header__email-adress {
     color: var(--white);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -85,7 +85,7 @@ body {
     line-height: 1.2;
 }
 
-.email-text {
+.header__email-text {
     color: var(--white);
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -93,12 +93,12 @@ body {
     line-height: 1.5;
 }
 
-.header-center {
+.header__center {
     text-align: center;
     margin: 5% 0;
 }
 
-.header-title {
+.header__center-title {
     color:var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -108,7 +108,7 @@ body {
     margin: 0 auto;
 }
 
-.header-center-button {
+.header__center-button {
     background-color: var(--yellow);
     color:var(--black-grey);
     padding: 10px 20px;
@@ -142,7 +142,7 @@ body {
     padding: 20px;
 }
 
-.intro-text {
+.intro__text {
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -170,17 +170,17 @@ h1 {
     margin: 50px auto;
 }
 
-.product-card {
+.product {
     text-align: center;
 }
 
-.product-card img {
+.product img {
     width: 100%;
     border-radius: 6px;
 }
 
 /* Контейнер с текстом под изображениями товаров */
-.text-container {
+.product__info {
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: space-between;
@@ -189,21 +189,21 @@ h1 {
     gap: 8px;
 }
 /* Название */
-.title {
+.product__title {
     font-size: 24px;
     color: var(--black-total);
     margin-right: 12px;
     line-height: 1.2;
 }
 /* Цена */
-.price {
+.product__price {
     font-size: 16px;
     color: var(--black-total);
     line-height: 1.5;
 }
 
 /* Секция с видео */
-.video-section {
+.video {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,7 +215,7 @@ h1 {
     position: relative;
 }
 
-.video-section-p {
+.video__description {
     color:var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -227,13 +227,13 @@ h1 {
     max-width: 40%;
 }
 
-.video-background {
+.video__background {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
 }
 
-.video-overlay {
+.video__overlay {
     position: absolute;
     top: 10%;
     left: 0;
@@ -245,7 +245,7 @@ h1 {
     flex-direction: column;
 }
 
-.play-button {
+.video__play-button {
     background-color: var(--grey-white);
     border: none;
     border-radius: 50%;
@@ -258,12 +258,12 @@ h1 {
     justify-content: center;
 }
 
-.video-section:hover .play-button {
+.video:hover .video__play-button {
     background-color: dimgray;
     transform: scale(1.05);
 }
 
-.play-button::after {
+.video__play-button::after {
     content: '';
     width: 0;
     height: 0;
@@ -273,28 +273,21 @@ h1 {
     margin-left: 8px;
 }
 
-.video-title {
-    color: var(--white);
-    font-size: 24px;
-    margin-top: 20px;
-    text-align: center;
-}
-
 /* Контейнер с производством для компаний и брендов */
-.cooperation-container{
+.cooperation__container{
     background-color: var(--grey-total);
     padding: 10px;
     width: 100%;
     margin: -7% auto;
 }
 
-.cooperation-intro {
+.cooperation__intro {
     text-align: center;
     margin-bottom: 40px;
     padding: 10% 0 0 0;
 }
 
-.cooperation-intro h2 {
+.cooperation__intro h2 {
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
@@ -303,7 +296,7 @@ h1 {
     max-width: 25%;
 }
 
-.cooperation-text {
+.cooperation__text {
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -319,7 +312,7 @@ h1 {
     padding: 1% 0 2% 19%;
 }
 
-.cooperation-cart {
+.cooperations__cart {
     text-align: center;
     padding: 20px;
     flex: 1 1 calc(33.333% - 40px); /* Ширина: под 3 элемента в строке */
@@ -327,14 +320,14 @@ h1 {
     box-sizing: border-box;
 }
 
-.cooperation-cart img {
+.cooperation__cart img {
     width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 15px;
 }
 
-.cooperation-cart h3 {
+.cooperation__cart h3 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -345,7 +338,7 @@ h1 {
     text-align: center;
 }
 
-.cooperation-cart p {
+.cooperation__cart p {
     color: var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
@@ -354,18 +347,18 @@ h1 {
 }
 
 /* Контейнер со способами нанесения принтов и вышивки */
-.prints-techniques-container {
+.prints-techniques__container {
     width: 1150px;
     margin: 10% auto 0 auto;
     padding: 20px;
 }
 
-.prints-techniques-intro {
+.prints-techniques__intro {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.prints-techniques-intro h2 {
+.prints-techniques__intro h2 {
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
     font-size: 48px;
@@ -381,21 +374,21 @@ h1 {
     justify-content: space-between;
 }
 
-.prints-techniques-cart {
+.prints-techniques__cart {
     text-align: center;
     padding: 10px;
     flex: 1 1 calc(50% - 20px); /* Ширина: под 2 элемента в строке */
     box-sizing: border-box;
 }
 
-.prints-techniques-cart img {
+.prints-techniques__cart img {
     width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 15px;
 }
 
-.prints-techniques-cart h3 {
+.prints-techniques__cart h3 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -405,7 +398,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.prints-techniques-cart p {
+.prints-techniques__cart p {
     color: var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
@@ -449,7 +442,7 @@ h1 {
     border-radius: 15px;
 }
 
-.realisation-overlay {
+.realisation__overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -460,7 +453,7 @@ h1 {
     margin: auto;
 }
 
-.realisation-h2 {
+.realisation__h2 {
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
     font-size: 24px;
@@ -469,7 +462,7 @@ h1 {
     max-width: 70%;
 }
 
-.realisation-p {
+.realisation__description {
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -478,14 +471,14 @@ h1 {
 }
 
 /* Контейнер со схемой работы */
-.scheme-of-work-container {
+.scheme-of-work__container {
     background-color: #191919e3;
     margin: -5% auto 0 auto;
     padding: 20px;
     text-align: center;
 }
 
-.scheme-of-work-h2 {
+.scheme-of-work__h2 {
     color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
@@ -494,7 +487,7 @@ h1 {
     margin-top: 7%;
 }
 
-.scheme-of-work-p {
+.scheme-of-work__description {
     color:var(--white);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
@@ -518,7 +511,7 @@ h1 {
     text-align: center;
 }
 
-.step-icon {
+.step__icon {
     width: 100px;
     height: 100px;
     background-color: #222222;
@@ -529,7 +522,7 @@ h1 {
     justify-content: center;
 }
 
-.step-text {
+.step__text {
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -540,18 +533,18 @@ h1 {
 }
 
 /* Контейнер о собственном производстве */
-.actual-manufacturing-container {
+.actual-manufacturing__container {
     max-width: 1346px;
     margin: 3% auto 0 auto;
     padding: 20px;
 }
 
-.actual-manufacturing-intro {
+.actual-manufacturing__intro {
     text-align: center;
     margin-bottom: 7%;
 }
 
-.actual-manufacturing-intro h2 {
+.actual-manufacturing__intro h2 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
@@ -561,7 +554,7 @@ h1 {
     margin: 0 auto 5% auto;
 }
 
-.actual-manufacturing-intro p {
+.actual-manufacturing__intro p {
     color:var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
@@ -580,20 +573,20 @@ h1 {
     margin: 0 auto;
 }
 
-.actual-manufacturing-cart {
+.actual-manufacturing__cart {
     flex: 1 1 calc(33.333% - 20px);
     max-width: calc(33.333% - 20px);
     box-sizing: border-box;
     text-align: center;
 }
 
-.actual-manufacturing-cart img {
+.actual-manufacturing__cart img {
     width: 100%;
     border-radius: 6px;
 }
 
 /* Контейнер с адресами магазинов */
-.shops-block {
+.shops {
     text-align: center;
     background-color: var(--grey);
     max-width: 1125px;
@@ -603,12 +596,12 @@ h1 {
     z-index: 1;
 }
 
-.shops-container {
+.shops__container {
     width: 90%;
     margin: 0 auto;
 }
 
-.shops-block h2 {
+.shops h2 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
@@ -618,7 +611,7 @@ h1 {
     margin: 0 auto 5% auto;
 }
 
-.shops-container p {
+.shops p {
     color:var(--black-total);
     font-family: "Open Sans", sans-serif;
     line-height: 1.2;
@@ -628,7 +621,7 @@ h1 {
     margin: 0 auto 5% auto;
 }
 
-.shops-locations {
+.shops__locations {
     display: flex;
     justify-content: center;
 }
@@ -638,25 +631,26 @@ h1 {
     overflow: hidden;
 }
 
-.shops-locations p {
+.shop-location p {
     position: relative;
     color: var(--white);
     text-align: start;
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 800;
     top: -15%;
-    left: 5%;
+    left: -20%;
     z-index: 1;
 }
 
-.shops-locations img {
+.shop-location img {
     width: 100%;
     object-fit: cover;
 }
 
-.collaborations-block {
+/* Контейнер с коллаборациями */
+.collaborations {
     position: relative;
     margin-top: -20%;
     padding: 100px 0 50px;
@@ -666,7 +660,7 @@ h1 {
     /*top: -15%;*/
 }
 
-.collaborations-block h2 {
+.collaborations h2 {
     color: var(--white);
     font-family: "Poppins", sans-serif;
     line-height: 1.1;
@@ -675,7 +669,7 @@ h1 {
     margin: 20% auto 0 auto;
 }
 
-.collaborations-block p {
+.collaborations p {
     color:var(--white);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
@@ -684,7 +678,7 @@ h1 {
     margin: 3% auto 3% auto;
 }
 
-.collaborations-grid {
+.collaborations__grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -693,14 +687,14 @@ h1 {
     margin: 0 auto;
 }
 
-.collaborations-grid-cart {
+.collaborations__grid-cart {
     flex: 1 1 calc(33.333% - 20px);
     max-width: calc(33.333% - 20px);
     box-sizing: border-box;
     text-align: center;
 }
 
-.collaborations-grid-cart img {
+.collaborations__grid-cart img {
     width: 100%;
     border-radius: 6px;
 }
@@ -708,18 +702,18 @@ h1 {
 /* Контейнер с подвалом */
 footer {
     background-color: var(--black-total);
-    width: 100%; /* Фон на всю ширину экрана */
+    width: 100%;
     height: 230px;
     margin: 0 auto;
 }
 
-.footer-content {
-    max-width: 1127px; /* Ограничение ширины */
-    margin: 0 auto; /* Центрируем по горизонтали */
-    padding: 0 15px; /* Немного внутреннего отступа для адаптивности */
+.footer__content {
+    max-width: 1127px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.footer-line {
+.footer__line {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -728,14 +722,14 @@ footer {
     margin-top: 0; /* Здесь можно добавить отступ от верхнего края страницы, если будет нужно */
 }
 
-.footer-center {
+.footer__center {
     display: flex;
     justify-content: center;
     margin: 20px 0;
     width: 100%;
 }
 
-.footer-center-button {
+.footer__center-button {
     background-color: var(--yellow);
     color:var(--black-grey);
     padding: 10px 20px;
@@ -755,18 +749,34 @@ footer {
     }
 }
 
+.footer__email-adress {
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.footer__email-text {
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 @media (max-width: 1205px) {
     .header {
         height: auto;
         padding: 20px;
     }
 
-    .header-title {
+    .header__center-title {
         font-size: 40px;
         max-width: 90%;
     }
 
-    .header-center-button {
+    .header__center-button {
         padding: 8px 16px;
         font-size: 14px;
     }
@@ -776,34 +786,34 @@ footer {
         margin: 30px auto;
     }
 
-    .product-cart {
+    .product {
         flex: 1 1 calc(50% - 20px);
         max-width: calc(50% - 20px);
     }
 
-    .text-container {
+    .product__info {
         font-family: "Poppins", sans-serif;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .title {
+    .product__title {
         font-size: 20px;
         color: var(--black-total);
         margin-right: 0;
     }
 
-    .price {
+    .product__price {
         font-size: 14px;
         color: var(--black-total);
     }
 
-    .actual-manufacturing-cart {
+    .actual-manufacturing__cart {
         flex: 1 1 calc(50% - 20px);
         max-width: calc(50% - 20px);
     }
 
-    .collaborations-grid-cart {
+    .collaborations__grid-cart {
         display: flex;
         flex-direction: column;
         flex: 1 1 calc(50% - 20px);
@@ -814,13 +824,13 @@ footer {
 }
 
 @media (max-width: 600px) {
-    .header-line {
+    .header__line {
         flex-direction: column;
         align-items: center;
         gap: 15px;
     }
 
-    .header-title {
+    .header__center-title {
         font-size: 32px;
     }
 
@@ -829,28 +839,28 @@ footer {
         align-items: center;
     }
 
-    .product-cart {
+    .product {
         flex: 1 1 100%;
         max-width: 100%;
     }
 
-    .text-container {
+    .product__info {
         font-family: "Poppins", sans-serif;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .title {
+    .product__title {
         font-size: 18px;
         color: var(--black-total);
     }
 
-    .price {
+    .product__price {
         font-size: 12px;
         color: var(--black-total);
     }
 
-    .actual-manufacturing-cart {
+    .actual-manufacturing__cart {
         flex: 1 1 100%;
         max-width: 100%;
     }
@@ -864,7 +874,7 @@ footer {
         max-width: 100%;
     }
 
-    .shops-locations {
+    .shops__locations {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -879,26 +889,26 @@ footer {
         padding: 10px;
     }
 
-    .shops-locations img {
+    .shop-location img {
         max-width: 100%;
         height: auto;
         margin-bottom: 10px;
     }
 
-    .shops-locations p {
+    .shop-location p {
         font-size: 14px;
         font-weight: bold;
         margin-bottom: 5px;
     }
 
-    .collaborations-grid {
+    .collaborations__grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 15px;
     }
 
-    .collaborations-grid-cart {
+    .collaborations__grid-cart {
         display: flex;
         flex-direction: column;
         flex: 1 1 100%;
@@ -907,7 +917,7 @@ footer {
         padding: 15px;
     }
 
-    .collaborations-grid-cart img {
+    .collaborations__grid-cart img {
         max-width: 100%;
         height: auto;
         margin-bottom: 10px;
@@ -915,7 +925,7 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 600px) {
-    .collaborations-grid {
+    .collaborations__grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
