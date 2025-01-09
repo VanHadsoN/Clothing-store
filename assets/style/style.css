@@ -724,21 +724,6 @@ footer {
     width: 100%;
 }
 
-.footer__center-button {
-    background-color: var(--yellow);
-    color:var(--black-grey);
-    padding: 10px 20px;
-    font-family: "Poppins", sans-serif;
-    line-height: 1.2;
-    font-size: 16px;
-    font-weight: 800;
-    border-radius: 10px;
-    text-decoration: none;
-
-    transition: background-color 0.3s linear;
-
-}
-
 .footer__email-adress {
     color: var(--white);
     font-family: "Poppins", sans-serif;
@@ -756,7 +741,7 @@ footer {
 }
 
 @media (any-hover: hover) {
-    .header__center-button:hover, .footer__center-button:hover {
+    .header__center-button:hover {
         background-color: var(--dark-yellow);
     }
 }
