@@ -39,7 +39,7 @@ body {
     align-items: center;
     width: 90%;
     padding: 30px 0;
-    margin-top: 0; /* Здесь можно добавить отступ от верхнего края страницы, если будет нужно */
+    margin-top: 0;
 }
 
 .number {
@@ -122,11 +122,6 @@ body {
 
     transition: background-color 0.3s linear;
 
-    @media (any-hover: hover) {
-        &:hover {
-            background-color: var(--dark-yellow);
-        }
-    }
 }
 
 .main {
@@ -719,7 +714,7 @@ footer {
     align-items: center;
     width: 100%;
     padding: 30px 0;
-    margin-top: 0; /* Здесь можно добавить отступ от верхнего края страницы, если будет нужно */
+    margin-top: 0;
 }
 
 .footer__center {
@@ -742,11 +737,6 @@ footer {
 
     transition: background-color 0.3s linear;
 
-    @media (any-hover: hover) {
-        &:hover {
-            background-color: var(--dark-yellow);
-        }
-    }
 }
 
 .footer__email-adress {
@@ -763,6 +753,12 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
+}
+
+@media (any-hover: hover) {
+    .header__center-button:hover, .footer__center-button:hover {
+        background-color: var(--dark-yellow);
+    }
 }
 
 @media (max-width: 1205px) {
