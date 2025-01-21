@@ -123,6 +123,7 @@ body {
     line-height: 1.2;
     font-size: 16px;
     font-weight: 800;
+    cursor: pointer;
     border-radius: 10px;
     text-decoration: none;
     margin-top: 20px;
