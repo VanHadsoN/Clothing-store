@@ -296,7 +296,7 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     margin: 0 auto;
-    max-width: 25%;
+    max-width: 40%;
 }
 
 .cooperation__text {
@@ -311,23 +311,23 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 60%;
-    padding: 1% 0 2% 19%;
+    gap: 5px;
+    max-width: 65%;
+    margin: 10px auto;
 }
 
 .cooperations__cart {
     text-align: center;
-    padding: 20px;
-    flex: 1 1 calc(33.333% - 40px); /* Ширина: под 3 элемента в строке */
-    max-width: 23%;
-    box-sizing: border-box;
+    padding: 5px;
+    flex: 1 1 30%;
+    max-width: 30%;
 }
 
 .cooperation__cart img {
     width: 100%;
     height: auto;
     border-radius: 6px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .cooperation__cart h3 {
@@ -754,7 +754,7 @@ footer {
     }
 }
 
-@media (max-width: 1205px) {
+@media (max-width: 1024px) {
     .header {
         height: auto;
         padding: 20px;
@@ -810,9 +810,20 @@ footer {
         align-items: center;
         padding: 15px;
     }
+
+    .cooperations {
+        max-width: 80%;
+        gap: 10px;
+    }
+
+    .cooperations__cart {
+        flex: 1 1 90%;
+        padding: 10px;
+        max-width: 70%;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .header__line {
         flex-direction: column;
         align-items: center;
@@ -910,6 +921,17 @@ footer {
         max-width: 100%;
         height: auto;
         margin-bottom: 10px;
+    }
+
+    .cooperations {
+        max-width: 90%;
+        gap: 10px;
+    }
+
+    .cooperations__cart {
+        flex: 1 1 100%;
+        padding: 10px;
+        max-width: 90%;
     }
 }
 
