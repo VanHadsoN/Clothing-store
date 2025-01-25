@@ -27,10 +27,9 @@ body {
     justify-content: flex-start;
     width: 100%;
     height: 677px;
-    background-image: url(bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--black-total);
+    position: relative;
+    pointer-events: none;
+    z-index: 10;
 }
 
 .header__line {
@@ -48,6 +47,7 @@ body {
     font-weight: 800;
     font-size: 14px;
     line-height: 1.2;
+    pointer-events: auto;
 }
 
 .header__logo {
@@ -75,6 +75,7 @@ body {
     font-weight: 800;
     font-size: 14px;
     line-height: 1.2;
+    pointer-events: auto;
 }
 
 .header__email-text {
@@ -87,7 +88,15 @@ body {
 
 .header__center {
     text-align: center;
-    margin: 5% 0;
+    margin: -680px 0 5% 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--black-total);
+    position: relative;
+    z-index: 5;
 }
 
 .header__center-title {
@@ -130,6 +139,7 @@ body {
     margin: 0;
     text-align: left;
     display: block;
+    pointer-events: auto;
 }
 
 .main {
