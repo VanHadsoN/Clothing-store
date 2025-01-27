@@ -150,6 +150,28 @@ body {
     width: 100%;
 }
 
+.section-block {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-block h2 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.1;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.section-block p {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 20px auto 0;
+    max-width: 50%;
+}
+
 .intro {
     width: 100%;
     text-align: center;
@@ -301,29 +323,12 @@ h1 {
     padding: 10% 0 0 0;
 }
 
-.cooperation__intro h2 {
-    font-family: "Poppins", sans-serif;
-    line-height: 1.1;
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0 auto;
-    max-width: 40%;
-}
-
-.cooperation__text {
-    font-family: "Inter", sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-    margin: 20px auto 0;
-    max-width: 30%;
-}
-
 .cooperations {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
-    max-width: 65%;
+    max-width: 50%;
     margin: 10px auto;
 }
 
@@ -365,20 +370,6 @@ h1 {
     width: 1150px;
     margin: 10% auto 0 auto;
     padding: 20px;
-}
-
-.prints-techniques__intro {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.prints-techniques__intro h2 {
-    font-family: "Poppins", sans-serif;
-    line-height: 1.1;
-    font-size: 48px;
-    font-weight: 800;
-    max-width: 50%;
-    margin: 0 auto;
 }
 
 .prints-techniques {
@@ -553,31 +544,6 @@ h1 {
     padding: 20px;
 }
 
-.actual-manufacturing__intro {
-    text-align: center;
-    margin-bottom: 7%;
-}
-
-.actual-manufacturing__intro h2 {
-    color: var(--black-total);
-    font-family: "Poppins", sans-serif;
-    line-height: 1.1;
-    font-size: 48px;
-    font-weight: 800;
-    max-width: 90%;
-    margin: 0 auto 5% auto;
-}
-
-.actual-manufacturing__intro p {
-    color:var(--black-total);
-    font-family: "Inter", sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-    font-weight: 400;
-    max-width: 50%;
-    margin: 0 auto;
-}
-
 .actual-manufacturing {
     display: flex;
     flex-wrap: wrap;
@@ -610,34 +576,10 @@ h1 {
     z-index: 1;
 }
 
-.shops__container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.shops h2 {
-    color: var(--black-total);
-    font-family: "Poppins", sans-serif;
-    line-height: 1.1;
-    font-size: 48px;
-    font-weight: 800;
-    max-width: 65%;
-    margin: 0 auto 5% auto;
-}
-
-.shops p {
-    color:var(--black-total);
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.2;
-    font-size: 15px;
-    font-weight: 400;
-    max-width: 50%;
-    margin: 0 auto 5% auto;
-}
-
 .shops__locations {
     display: flex;
     justify-content: center;
+    margin: 5% auto 0 auto;
 }
 
 .shop-location {
@@ -654,7 +596,7 @@ h1 {
     font-size: 21px;
     font-weight: 800;
     top: -15%;
-    left: -20%;
+    left: 5%;
     z-index: 1;
 }
 
@@ -729,6 +671,7 @@ footer {
 
 .footer__line {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
