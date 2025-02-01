@@ -548,13 +548,13 @@ h1 {
 }
 
 /* Контейнер о собственном производстве */
-.actual-manufacturing__container {
+.actual-manufacturing {
     max-width: 1346px;
     margin: 3% auto 0 auto;
     padding: 20px;
 }
 
-.actual-manufacturing {
+.actual-manufacturing__content {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -563,14 +563,14 @@ h1 {
     margin: 0 auto;
 }
 
-.actual-manufacturing__cart {
+.actual-manufacturing__content-cart {
     flex: 1 1 calc(33.333% - 20px);
     max-width: calc(33.333% - 20px);
     box-sizing: border-box;
     text-align: center;
 }
 
-.actual-manufacturing__cart img {
+.actual-manufacturing__content-cart img {
     width: 100%;
     border-radius: 6px;
 }
@@ -796,7 +796,7 @@ footer {
         width: 90%;
     }
 
-    .actual-manufacturing__cart {
+    .actual-manufacturing__content-cart {
         flex: 1 1 calc(50% - 20px);
         max-width: calc(50% - 20px);
     }
