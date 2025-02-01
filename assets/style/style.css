@@ -376,34 +376,34 @@ h1 {
 }
 
 /* Контейнер со способами нанесения принтов и вышивки */
-.prints-techniques__container {
+.prints-techniques {
     width: 1150px;
     margin: 10% auto 0 auto;
     padding: 20px;
 }
 
-.prints-techniques {
+.prints-techniques__content {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
 
-.prints-techniques__cart {
+.prints-techniques__content-cart {
     text-align: center;
     padding: 10px;
     flex: 1 1 calc(50% - 20px); /* Ширина: под 2 элемента в строке */
     box-sizing: border-box;
 }
 
-.prints-techniques__cart img {
+.prints-techniques__content-cart img {
     width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 15px;
 }
 
-.prints-techniques__cart h3 {
+.prints-techniques__content-cart h3 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -413,7 +413,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.prints-techniques__cart p {
+.prints-techniques__content-cart p {
     color: var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
