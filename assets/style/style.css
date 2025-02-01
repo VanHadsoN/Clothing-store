@@ -792,7 +792,7 @@ footer {
         max-width: 70%;
     }
 
-    .prints-techniques__container {
+    .prints-techniques {
         width: 90%;
     }
 
@@ -887,12 +887,12 @@ footer {
         max-width: 80%;
     }
 
-    .prints-techniques {
+    .prints-techniques__content {
         flex-direction: column;
         align-items: center;
     }
 
-    .prints-techniques__cart {
+    .prints-techniques__content-cart {
         flex: 1 1 100%;
         max-width: 80%;
     }
@@ -1012,7 +1012,7 @@ footer {
         max-width: 100%;
     }
 
-    .prints-techniques__cart {
+    .prints-techniques__content-cart {
         max-width: 100%;
     }
 
