@@ -185,7 +185,7 @@ body {
 }
 
 .intro {
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     padding: 20px;
 }
@@ -255,7 +255,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1125px;
+    max-width: 1125px;
     height: 350px;
     overflow: hidden;
     border-radius: 12px;
@@ -325,7 +325,7 @@ h1 {
 .cooperation {
     background-color: var(--grey-total);
     padding: 10px;
-    width: 100%;
+    max-width: 100%;
     margin: -7% auto;
 }
 
@@ -377,7 +377,7 @@ h1 {
 
 /* Контейнер со способами нанесения принтов и вышивки */
 .prints-techniques {
-    width: 1150px;
+    max-width: 1150px;
     margin: 10% auto 0 auto;
     padding: 20px;
 }
@@ -425,7 +425,7 @@ h1 {
 .realisation {
     position: relative;
     margin: 3% auto 0 auto;
-    width: 1125px;
+    max-width: 1125px;
     height: 350px;
     border-radius: 15px;
     background-image: url('3_3.png');
