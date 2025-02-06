@@ -256,7 +256,7 @@ h1 {
     align-items: center;
     justify-content: center;
     max-width: 1125px;
-    height: 350px;
+    height: auto;
     overflow: hidden;
     border-radius: 12px;
     margin: 20px auto;
@@ -426,7 +426,7 @@ h1 {
     position: relative;
     margin: 3% auto 0 auto;
     max-width: 1125px;
-    height: 350px;
+    height: auto;
     border-radius: 15px;
     background-image: url('3_3.png');
     background-repeat: no-repeat;
