@@ -584,6 +584,7 @@ h1 {
     padding: 50px 0;
     margin: 5% auto 0 auto;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .shops__locations {
