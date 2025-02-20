@@ -1190,7 +1190,7 @@ footer {
     }
 
     .footer__content {
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .footer__line {
@@ -1200,8 +1200,8 @@ footer {
     }
 
     .footer__phone, .footer__email {
-        font-size: 10px;
-        margin-bottom: 10px;
+        font-size: 8px;
+        margin-bottom: 5px;
     }
 
     .header__logo-text {
@@ -1212,7 +1212,17 @@ footer {
         font-size: 12px;
     }
 
+    .footer__content {
+        padding: 0 5px;
+    }
+
+    .footer__line {
+        width: 100%;
+        padding: 3px 0;
+        margin-top: 0;
+    }
+
     .footer__center {
-        margin-top: 5px;
+        margin-top: 0;
     }
 }
