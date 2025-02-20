@@ -178,7 +178,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .section-block p {
@@ -342,8 +342,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
-    max-width: 1125px;
-    width: 100%;
+    max-width: 100%;
     margin: 10px auto;
 }
 
@@ -725,7 +724,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .header {
         height: auto;
         padding: 20px;
@@ -1059,7 +1058,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .header__line {
         flex-direction: column;
         align-items: center;
@@ -1080,8 +1079,22 @@ footer {
         padding: 6px 12px;
     }
 
+    .section-block {
+        text-align: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
     .section-block h2 {
-        font-size: 32px;
+        font-size: 24px;
+        margin: 0 auto;
+        max-width: 55%;
+        text-align: center;
+    }
+
+    .section-block p {
+        margin: 10px auto 0;
+        max-width: 70%;
     }
 
     .intro h1 {
@@ -1108,6 +1121,10 @@ footer {
 
     .video {
         height: 200px;
+    }
+
+    .cooperation__intro {
+        padding: 8% 0;
     }
 
     .cooperations__cart {
