@@ -10,6 +10,10 @@
     --grey-white: #ffffff33;
     --grey-total: #eeeeee;
 }
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: "Inter", "Poppins", "Open Sans", sans-serif;
@@ -325,13 +329,12 @@ h1 {
 /* Контейнер с производством для компаний и брендов */
 .cooperation {
     background-color: var(--grey-total);
-    padding: 10px;
     max-width: 100%;
     margin: -7% auto;
 }
 
 .cooperation__intro {
-    padding: 10% 0 0 0;
+    padding: 7% 7% 0 7%;
 }
 
 .cooperations {
@@ -339,7 +342,8 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
-    max-width: 50%;
+    max-width: 1125px;
+    width: 100%;
     margin: 10px auto;
 }
 
@@ -350,14 +354,15 @@ h1 {
     max-width: 30%;
 }
 
-.cooperation__cart img {
+.cooperations__cart img {
     width: 100%;
     height: auto;
+    object-fit: cover;
     border-radius: 6px;
     margin-bottom: 10px;
 }
 
-.cooperation__cart h3 {
+.cooperations__cart h3 {
     color: var(--black-total);
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -368,7 +373,7 @@ h1 {
     text-align: center;
 }
 
-.cooperation__cart p {
+.cooperations__cart p {
     color: var(--black-total);
     font-family: "Inter", sans-serif;
     line-height: 1.5;
@@ -846,6 +851,10 @@ footer {
 }
 
 @media (max-width: 767.98px) {
+    * {
+        box-sizing: border-box;
+    }
+
     .header__line {
         flex-direction: column;
         align-items: center;
@@ -913,15 +922,32 @@ footer {
         height: 250px;
     }
 
+    .cooperation {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .cooperations {
         flex-direction: column;
         align-items: center;
-        max-width: 100%;
+        max-width: 1125px;
+        width: 100%;
     }
 
     .cooperations__cart {
-        flex: 1 1 100%;
-        max-width: 80%;
+        flex: 1 1 auto;
+        max-width: 50%;
+    }
+
+    .cooperations__cart img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+        border-radius: 6px;
+        margin-bottom: 5px;
     }
 
     .prints-techniques__content {
