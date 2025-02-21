@@ -589,7 +589,8 @@ h1 {
     padding: 50px 0;
     margin: 5% auto 0 auto;
     z-index: 1;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .shops__locations {
@@ -629,7 +630,6 @@ h1 {
     background-color: var(--black-total);
     text-align: center;
     z-index: -1;
-    /*top: -15%;*/
 }
 
 .collaborations h2 {
@@ -1086,9 +1086,9 @@ footer {
     }
 
     .section-block h2 {
-        font-size: 24px;
+        font-size: 22px;
         margin: 0 auto;
-        max-width: 55%;
+        max-width: 60%;
         text-align: center;
     }
 
@@ -1168,13 +1168,53 @@ footer {
         max-width: 100%;
     }
 
+    .shops {
+        max-width: 350px;
+        max-height: 300px;
+        padding: 50px 0;
+        margin: 5% auto 10% auto;
+        z-index: 1;
+    }
+
+    .shops__locations {
+        display: flex;
+        justify-content: center;
+        margin: 15% auto 0 auto;
+    }
+
+    .shop-location {
+        flex: 1;
+        overflow: hidden;
+    }
+
     .shop-location p {
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: 800;
+        margin: -5% 0 -15% 0;
+        top: -40px;
+        left: -40px;
+        z-index: 10;
+    }
+
+    .shop-location img {
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .collaborations {
+        position: relative;
+        margin-top: -10%;
+        padding: 100px 0 50px;
+        background-color: var(--black-total);
+        text-align: center;
+        z-index: -2;
     }
 
     .collaborations h2 {
-        margin-top: 20%;
-        font-size: 28px;
+        margin-top: 130%;
+        font-size: 26px;
+        max-width: 80%;
     }
 
     .collaborations p {
