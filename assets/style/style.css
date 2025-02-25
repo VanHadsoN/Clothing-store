@@ -820,11 +820,6 @@ footer {
         max-width: 50%;
     }
 
-    /*.steps {*/
-    /*    flex-direction: column;*/
-    /*    align-items: center;*/
-    /*}*/
-
     .actual-manufacturing__content-cart {
         flex: 1 1 calc(50% - 20px);
         max-width: calc(50% - 20px);
