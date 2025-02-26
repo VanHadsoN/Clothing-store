@@ -185,6 +185,7 @@ body {
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-size: 16px;
+    font-weight: 400;
     margin: 20px auto 0;
     max-width: 50%;
 }
@@ -625,28 +626,20 @@ h1 {
 /* Контейнер с коллаборациями */
 .collaborations {
     position: relative;
-    margin-top: -20%;
+    margin-top: -17%;
     padding: 100px 0 50px;
     background-color: var(--black-total);
     text-align: center;
     z-index: -1;
 }
 
-.collaborations h2 {
+.collaborations__container h2 {
     color: var(--white);
-    font-family: "Poppins", sans-serif;
-    line-height: 1.1;
-    font-size: 48px;
-    font-weight: 800;
     margin: 20% auto 0 auto;
 }
 
-.collaborations p {
+.collaborations__container p {
     color:var(--white);
-    font-family: "Inter", sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-    font-weight: 400;
     margin: 3% auto 3% auto;
 }
 
