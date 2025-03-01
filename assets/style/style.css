@@ -434,7 +434,7 @@ h1 {
     max-width: 1125px;
     height: auto;
     border-radius: 15px;
-    background-image: url('../images/3_3.png');
+    background-image: url('../images/section_realisation/3_3.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-color: var(--black-half);
@@ -455,7 +455,7 @@ h1 {
     right: 0;
     bottom: 0;
 
-    background-image: url('../images/3_4.png');
+    background-image: url('../images/section_realisation/3_4.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-color: var(--black-half);
